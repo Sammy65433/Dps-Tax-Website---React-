@@ -3,7 +3,7 @@ function Hero() {
     <section className="hero" data-aos="fade-up">
       <div className="container hero-content">
         <p className="tag">19+ Years Serving Maplewood, NJ</p>
-        <h1>Dps Professional Tax and Business Services You Can Trust</h1>
+        <h1>DPS Professional Tax and Business Services You Can Trust</h1>
         <p className="lead">
           For over 19 years, DPS has provided trusted tax preparation, document
           support, immigration assistance, insurance services, and essential

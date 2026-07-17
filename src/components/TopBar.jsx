@@ -1,6 +1,4 @@
 import {
-  FaInstagram,
-  FaFacebookF,
   FaWhatsapp,
   FaGoogle,
   FaMapMarkerAlt
@@ -11,9 +9,11 @@ function TopBar() {
     <div className="top-bar">
       <div className="container top-bar-content">
         <p>
-          Call <a href="tel:9733272340">(973) 327-2340</a> &nbsp;|&nbsp;
-          <a href="mailto:dpstax1@gmail.com">dpstax1@gmail.com</a>
+          Call <a href="tel:9733272340">(973) 327-2340</a> &nbsp;| &nbsp;
+          <a href="mailto:info@dpstaxpro.com">info@DPStaxpro.com</a> &nbsp;| &nbsp;
+          <a href="mailto:dpstax1@gmail.com">DPStax1@gmail.com</a>
         </p>
+
 
         <div className="top-right">
           <div className="lang-row">
@@ -52,7 +52,7 @@ function TopBar() {
           </div>
 
           <div className="social-icons">
-          
+
             <a
               href="https://wa.me/19733272340"
               target="_blank"
@@ -72,13 +72,14 @@ function TopBar() {
             </a>
 
             <a
-              href="https://www.google.com/maps/search/1811+Springfield+Ave+Maplewood+NJ+07040"
+              href="https://www.google.com/maps?q=1811+Springfield+Ave,+Maplewood,+NJ+07040"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Google Business Location"
+              aria-label="Google Maps Location"
             >
               <FaMapMarkerAlt />
             </a>
+
           </div>
         </div>
       </div>

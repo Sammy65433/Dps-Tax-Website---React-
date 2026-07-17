@@ -3,7 +3,7 @@ function Testimonials() {
     <section className="section alt" data-aos="fade-up">
       <div className="container">
         <p className="eyebrow">Client Feedback</p>
-        <h2>What Clients Say</h2>
+        <h2>What Clients Say about DPS</h2>
 
         <div className="card-grid">
           <div className="card">
@@ -26,8 +26,7 @@ function Testimonials() {
               className="service-card-image"
             />
             <p>
-              "Sèvis la te pwofesyonèl anpil. Yo te ede m konprann dokiman mwen
-              yo epi yo te trete m ak respè."
+              "Mwen te jwenn yon sèvis trè pwofesyonèl. Yo te pran tan pou ede m konprann dokiman mwen yo epi yo te trete m ak anpil respè."
             </p>
             <h3 style={{ marginTop: "1rem" }}>Kreyòl-Speaking Client</h3>
           </div>
@@ -39,8 +38,7 @@ function Testimonials() {
               className="service-card-image"
             />
             <p>
-              "Service très professionnel et accueillant. On a pris le temps de
-              tout m’expliquer clairement."
+              "Service très professionnel et chaleureux. On a pris le temps de tout m’expliquer clairement, ce qui m’a tout de suite mis en confiance."
             </p>
             <h3 style={{ marginTop: "1rem" }}>French-Speaking Client</h3>
           </div>
@@ -52,8 +50,7 @@ function Testimonials() {
               className="service-card-image"
             />
             <p>
-              "Excelente servicio. Me ayudaron con mis impuestos y respondieron
-              todas mis preguntas con paciencia."
+              "Recibí un servicio excelente. Me ayudaron con mis impuestos y respondieron todas mis preguntas con paciencia y claridad."
             </p>
             <h3 style={{ marginTop: "1rem" }}>Spanish-Speaking Client</h3>
           </div>
@@ -91,8 +88,7 @@ function Testimonials() {
               className="service-card-image"
             />
             <p>
-              "Yo te ede m byen vit e yo te pwofesyonèl anpil. Mwen ta
-              rekòmande sèvis sa yo bay lòt moun."
+              "Yo te ede m byen vit epi yo te trè pwofesyonèl. Mwen ta rekòmande sèvis sa yo ak tout moun."
             </p>
             <h3 style={{ marginTop: "1rem" }}>Returning Kreyòl Client</h3>
           </div>
@@ -104,8 +100,7 @@ function Testimonials() {
               className="service-card-image"
             />
             <p>
-              "Muy organizados y amables. El proceso fue fácil y me sentí bien
-              atendido desde el principio."
+              "Muy organizados y amables. El proceso fue sencillo y me sentí bien atendido desde el primer momento.
             </p>
             <h3 style={{ marginTop: "1rem" }}>Spanish-Speaking Client</h3>
           </div>
