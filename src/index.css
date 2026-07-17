@@ -345,6 +345,10 @@ h2.h2-sub {
   border-radius: 14px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+.card-grid .card button {
+  margin-top: 1rem;
+}
+
 
 .card:hover {
   transform: translateY(-4px);
@@ -895,6 +899,72 @@ h2.h2-sub {
     grid-template-columns: 1fr 1fr;
   }
 }
+.form-note {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  background: #f8faf9;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.form-status {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+
+.form-status:empty {
+  display: none;
+}
+
+.contact-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+.sunday-note {
+  margin-top: 0.75rem;
+  padding: 0.85rem 0.95rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fff7e8, #fffaf0);
+  border: 1px solid #e7c878;
+  color: #7a5a14;
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  box-shadow: 0 8px 20px rgba(122, 90, 20, 0.08);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.sunday-note-icon {
+  font-size: 1rem;
+  line-height: 1.2;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.sunday-note-link {
+  color: #8c6413;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.sunday-note-link:hover {
+  color: #6f4f0f;
+}
+
+
+
+
+
 
 @media (max-width: 760px) {
   nav.links {

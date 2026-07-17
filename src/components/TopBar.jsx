@@ -12,7 +12,7 @@ function TopBar() {
       <div className="container top-bar-content">
         <p>
           Call <a href="tel:9733272340">(973) 327-2340</a> &nbsp;|&nbsp;
-          <a href="mailto:dpstax1@gmail.com">DpsTax1@gmail.com</a>
+          <a href="mailto:dpstax1@gmail.com">dpstax1@gmail.com</a>
         </p>
 
         <div className="top-right">

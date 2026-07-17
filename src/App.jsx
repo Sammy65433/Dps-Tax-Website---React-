@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import TopBar from "./components/TopBar";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -18,6 +17,7 @@ import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import AdminAppointments from "./components/AdminAppointments";
 
 function App() {
   useEffect(() => {
@@ -26,6 +26,12 @@ function App() {
       once: true,
     });
   }, []);
+
+  const isAdminPage = window.location.pathname === "/admin";
+
+  if (isAdminPage) {
+    return <AdminAppointments />;
+  }
 
   return (
     <>
