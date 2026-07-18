@@ -175,6 +175,21 @@ nav.links a:hover {
 .nav-cta:hover {
   background: var(--accent-dark) !important;
 }
+.nav-call {
+  background: var(--accent);
+  color: #fff !important;
+  padding: 0.42rem 0.8rem;
+  border-radius: 9px;
+  font-weight: 700 !important;
+  font-size: 0.82rem;
+  line-height: 1;
+  display: inline-block;
+}
+
+.nav-call:hover {
+  background: var(--accent-dark) !important;
+}
+
 
 .hero {
   background-image: linear-gradient(
@@ -1164,12 +1179,4 @@ h2.h2-sub {
   .realty-form button {
     grid-column: auto;
   }
-}
-.nav-call {
-  background: #1d4ed8;
-  color: white;
-  text-decoration: none;
-  padding: 0.4rem 0.7rem;
-  font-size: 0.85rem;
-  border-radius: 8px;
 }
