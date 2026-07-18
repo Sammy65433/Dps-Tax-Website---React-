@@ -22,7 +22,7 @@ function Header() {
           <a href="#realty">Real Estate Partner</a>
           <a href="#faq">FAQ</a>
           <a href="#testimonials">Testimonials</a>
-          <a href="#booking" className="nav-cta">Book Now</a>
+          <a href="#booking" className="nav-call">Book Now</a>
           <a href="tel:+19735551234" className="nav-call">Call Now</a>
 
         </nav>
