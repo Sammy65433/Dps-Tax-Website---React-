@@ -23,6 +23,8 @@ function Header() {
           <a href="#faq">FAQ</a>
           <a href="#testimonials">Testimonials</a>
           <a href="#booking" className="nav-cta">Book Now</a>
+          <a href="tel:+19735551234" className="nav-cta">Call the Office</a>
+
         </nav>
 
 
