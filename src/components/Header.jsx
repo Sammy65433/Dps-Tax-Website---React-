@@ -20,9 +20,12 @@ function Header() {
           <a href="#contact">Contact</a>
           <a href="#hours">Office Hours</a>
           <a href="#realty">Real Estate Partner</a>
+          <a href="#faq">FAQ</a>
+          <a href="#testimonials">Testimonials</a>
           <a href="#booking" className="nav-cta">Book Now</a>
-          <a href="#gallery">Gallery</a>
         </nav>
+
+
       </div>
     </header>
   );
